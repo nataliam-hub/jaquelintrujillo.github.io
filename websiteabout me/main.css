@@ -1,0 +1,43 @@
+body {
+  font-size:15px;
+  background-color: lightblue;
+}
+h1 {
+  color: brown;
+  text-align: center;
+}
+#header {
+text-align:center;
+}
+.paragraph {
+  text-align:center;
+}
+#books {
+  text-align: center;
+}
+#coolstuff {
+  text-align: center;
+}
+#whatevermajorloser {
+  text-align:center;
+}
+/*secret: this is for the navigation bar!*/
+nav {
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: flex-end;
+  justify-content: space-around;
+  text-align: center;
+}
+nav > div {
+  height: 30px;
+  flex:1;
+  background-color: lightblue;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+nav a:hover {
+  background-color: lightblue;
+  color: blue;
+}
